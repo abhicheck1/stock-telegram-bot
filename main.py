@@ -1,3 +1,7 @@
+print("API KEY PRESENT:", bool(os.getenv("TWELVE_DATA_API_KEY")))
+print("TELEGRAM TOKEN PRESENT:", bool(os.getenv("TELEGRAM_TOKEN")))
+print("CHAT ID PRESENT:", bool(os.getenv("TELEGRAM_CHAT_ID")))
+
 import os
 import time
 import requests
